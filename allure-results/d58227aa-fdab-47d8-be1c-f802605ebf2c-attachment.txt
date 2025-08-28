@@ -1,0 +1,10 @@
+DEBUG: Waiting for cart icon to be clickable: ('xpath', "//a[@class='shopping_cart_link']")
+DEBUG: URL after clicking cart icon: https://www.saucedemo.com/cart.html
+DEBUG: Attempting to click checkout button with locator: ('id', 'checkout')
+DEBUG: URL after clicking checkout button: https://www.saucedemo.com/checkout-step-one.html
+DEBUG: URL after clicking checkout: https://www.saucedemo.com/checkout-step-one.html
+DEBUG: Page source at checkout: <html lang="en"><head><meta charset="utf-8"><link rel="icon" href="/favicon.ico"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="Sauce Labs Swag Labs app"><link rel="apple-touch-icon" href="/icon/icon-192x192.png"><link rel="manifest" href="/manifest.json"><script type="text/javascript">!function(n){if("/"===n.search[1]){var a=n.search.slice(1).split("&").map((fun
+DEBUG: Arrived at overview page, ready to click Finish. URL: https://www.saucedemo.com/checkout-step-two.html
+DEBUG: URL before clicking finish: https://www.saucedemo.com/checkout-step-two.html
+DEBUG: Page source before clicking finish: <html lang="en"><head><meta charset="utf-8"><link rel="icon" href="/favicon.ico"><meta name="robots" content="noindex"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff"><meta name="description" content="Sauce Labs Swag Labs app"><link rel="apple-touch-icon" href="/icon/icon-192x192.png"><link rel="manifest" href="/manifest.json"><script type="text/javascript">!function(n){if("/"===n.search[1]){var a=n.search.slice(1).split("&").map((fun
+DEBUG: Confirmation text: Thank you for your order!

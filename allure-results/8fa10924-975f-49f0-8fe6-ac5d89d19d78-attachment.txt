@@ -1,0 +1,3 @@
+DEBUG: Waiting for cart icon to be clickable: ('xpath', "//a[@class='shopping_cart_link']")
+DEBUG: URL after clicking cart icon: https://www.saucedemo.com/cart.html
+DEBUG: Current URL after go_to_cart: https://www.saucedemo.com/cart.html
