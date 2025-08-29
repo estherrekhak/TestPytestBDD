@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4738","test_add_item_to_cart[edge]","tests","Fri Aug 29 05:05:21 IST 2025","passed","Fri Aug 29 05:05:26 IST 2025","","cart_test","",""
-"","1601","test_successful_login[chrome1]","tests","Fri Aug 29 05:05:29 IST 2025","passed","Fri Aug 29 05:05:30 IST 2025","","login_test","",""
-"","4451","test_add_item_to_cart[chrome1]","tests","Fri Aug 29 05:05:33 IST 2025","passed","Fri Aug 29 05:05:37 IST 2025","","cart_test","",""
-"","12573","test_successful_checkout[edge]","tests","Fri Aug 29 05:05:44 IST 2025","passed","Fri Aug 29 05:05:57 IST 2025","","checkout_test","",""
-"","15893","test_successful_checkout[chrome0]","tests","Fri Aug 29 05:05:31 IST 2025","passed","Fri Aug 29 05:05:47 IST 2025","","checkout_test","",""
-"","1502","test_successful_login[edge]","tests","Fri Aug 29 05:05:39 IST 2025","passed","Fri Aug 29 05:05:41 IST 2025","","login_test","",""

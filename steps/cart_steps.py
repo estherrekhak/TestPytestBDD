@@ -13,6 +13,7 @@ scenarios('../features/add_to_cart.feature')
 
 @given('the user is logged in')
 def user_logged_in(browser, browser_type):
+    print(f"STEP: user_logged_in in {browser_type}")
     """
     Step: Given the user is logged in
     Feature: Add to cart
@@ -24,6 +25,7 @@ def user_logged_in(browser, browser_type):
 
 @when('the user adds an item to the cart')
 def add_item_to_cart(browser, browser_type):
+    print(f"STEP: add_item_to_cart in {browser_type}")
     """
     Step: When the user adds an item to the cart
     Feature: Add to cart
@@ -34,6 +36,7 @@ def add_item_to_cart(browser, browser_type):
 
 @then('the cart should contain the item')
 def cart_should_contain_item(browser, browser_type):
+    print(f"STEP: cart_should_contain_item in {browser_type}")
     """
     Step: Then the cart should contain the item
     Feature: Add to cart
@@ -45,4 +48,3 @@ def cart_should_contain_item(browser, browser_type):
     print(f"DEBUG: Current URL after go_to_cart: {browser.current_url}")
     # Add assertion for item presence if needed
     assert '/cart' in browser.current_url
-    

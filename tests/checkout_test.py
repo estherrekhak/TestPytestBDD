@@ -1,3 +1,4 @@
+
 __feature__ = '../features/checkout.feature'
 import pytest
 from steps.checkout_steps import *

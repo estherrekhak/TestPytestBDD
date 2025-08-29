@@ -15,6 +15,7 @@ scenarios('../features/checkout.feature')
 
 @given('the user has items in the cart')
 def user_has_items_in_cart(browser, browser_type):
+    print(f"STEP: user_has_items_in_cart in {browser_type}")
     """
     Step: Given the user has items in the cart
     Feature: Checkout process
@@ -29,6 +30,7 @@ def user_has_items_in_cart(browser, browser_type):
 
 @when('the user completes the checkout process')
 def complete_checkout_process(browser, browser_type):
+    print(f"STEP: complete_checkout_process in {browser_type}")
     """
     Step: When the user completes the checkout process
     Feature: Checkout process
